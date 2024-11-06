@@ -1,0 +1,16 @@
+{
+  "name": "stress-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test:stress:one": "k6 run stressTestOne.js",
+    "test:stress:batch": "k6 run stressTestBatch.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "vitorgamer58",
+  "license": "UNLICENSED",
+  "description": "",
+  "devDependencies": {
+    "@types/k6": "^0.54.1"
+  }
+}
